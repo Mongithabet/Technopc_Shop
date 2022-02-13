@@ -15,7 +15,7 @@ class Navbar1 extends Component {
           <Container className="orange">
             <Navbar.Brand href="#home">
 
-              <button className="title">Technopc</button>
+              <button className="title">GS COMPUTER</button>
               <form className="form-wrapper cf">
   	<input  type="text" placeholder="Search here..." required/>
 	  <button type="submit">Search</button>

@@ -1,22 +1,23 @@
-.title{
+button.title{
  
-  color: aliceblue;
-  font-style: normal;
-  font-size: 45px;
-  letter-spacing: 0.01em;
+ color: aliceblue;
+ font-style: normal;
+ font-size: 5px;
+ letter-spacing: 0.01em;
  position: absolute;
-   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
-   line-height: 1.15;
+ font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+ line-height: 1.15;
  font: 600 40px/32px Roboto, bold Neue,serif;
  letter-spacing: normal;
  white-space: nowrap;
- margin-top: 60px;
- padding-left: 0px;
+ margin-top: 115px !important;
+ padding-left: -10px !important;
  height: 50px;
  background: #C70A0A;
  border-radius: 3pt;
  border: none;
- 
+ float: left !important;
+    
 }
 .span{
   font-style: normal;
@@ -132,7 +133,7 @@
 .form-wrapper {
   
   width: 470px;
-  padding: 15px;
+  padding: 70px;
   margin: 50px 80px 50px 250px;
   background: #242442;
   -moz-border-radius: 10px;
@@ -146,7 +147,7 @@
   width: 330px;
   height: 40px;
   padding: 10px 5px;
-  float: left;    
+    
   font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
   border: none ;
   background: #eee;
