@@ -21,7 +21,7 @@ function Accordion(props) {
 
   const openAnimation = useSpring({
     from: { opacity: "0", maxHeight: "25px" },
-    to: { opacity: "1",marginBottom: "0px",marginTop: "0px", maxHeight: open ? "700px" : "25px" },
+    to: { opacity: "1",marginBottom: "0px",marginTop: "0px", maxHeight: open ? "800px" : "25px" },
     config: { duration: "300" }
   });
   

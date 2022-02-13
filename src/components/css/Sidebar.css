@@ -15,7 +15,7 @@
       }
       
       .accordion {
-        margin: 60px;
+        margin: 150px;
         width: fit-content;
         display: flex;
         flex-direction: column;
@@ -49,27 +49,19 @@
 
       }
       
-      .accordion__header h4 {
-        transition: 0.2s ease-in-out;
-        font-size: 16px;
-        font-weight: 400;
-        margin-bottom: 10px;
-        margin-left: -50px;
-
-      }
+     
       
       .accordion__header  {
         transition: 0.2s ease-in-out;
         transform-origin: center;
         margin-bottom: 10px;
-        
-        
       }
-      .i {
+      .MuiSvgIcon-root {
         transition: 0.2s ease-in-out;
       transform-origin: center;
-      margin-bottom: 10px;
-      margin-left: 140px;
+      margin-bottom: 0px;
+      margin-left: 80px;
+
     }
 
       .accordion__header:hover h4 {
@@ -124,6 +116,8 @@
        text-transform: uppercase !important;
        color: #222 !important;
        font-weight: 600 !important;
+       margin-right: -90px !important;
+           
      }
      .box-accordion{
        position: fixed !important;

@@ -19,7 +19,7 @@ export default function Sidebar(props) {
 
   const openAnimation = useSpring({
     from: { opacity: "0", maxHeight: "25px" },
-    to: { opacity: "1", marginBottom: "0px",marginTop: "0px",maxHeight: open ? "500px" : "25px" },
+    to: { opacity: "1", marginBottom: "0px",marginTop: "0px",maxHeight: open ? "2000px" : "25px" },
     config: { duration: "300" }
     
   });
@@ -78,10 +78,7 @@ export default function Sidebar(props) {
         title="CARTE GRAPHIQUE"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
       />
-       <Accordion 
-        title="CHIPSET GRAPHIQUE"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-      />
+      
        <Accordion 
         title="ECRAN"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
