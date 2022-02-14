@@ -18,9 +18,9 @@ export default function Body() {
           <div className='inseatch'><div className="form__group field">
 <input type="input" className="form__field" placeholder="Search product" name="Search product" id='name' required />
 <label htmlFor="name" className="form__label">Search product</label>
-</div></div>
+</div>
           <div className='box'><BiSearchAlt2 className='bicon'/></div>
-         
+         </div>
        <Card1/>
        <Pagination className='pagination' count={10} variant="outlined" color="primary" />
         </div></Col>

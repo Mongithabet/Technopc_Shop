@@ -15,7 +15,7 @@ export default function Footer() {
       <Container>
         <Row md={4}>
           <Col className="h1-txt" >
-            <h1 className="h1"> Technopc</h1>
+            <h1 className="h1"> GS COMPUTER</h1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada fringilla sem, à dictum lectus ultricies quis. Etiam eu bibendum orci. Aliquam erat volutpat. PLUS SUR NOUS    MORE ABOUT US
           </Col>
           <Col xs={4} className="h1-txt">
