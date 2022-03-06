@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Button, Col, Row, Form } from 'react-bootstrap';
 import './css/Footer.css'
+import './css/footer2.css'
 import { ImLocation } from "react-icons/im";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
@@ -11,7 +12,7 @@ import { AiOutlineGooglePlus } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="page-footer">
       <Container>
         <Row md={4}>
           <Col className="h1-txt" >

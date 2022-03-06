@@ -2,12 +2,12 @@
   "_id": {
     "$oid": "61db0d9da1ed0d0c0ff70c72"
   },
-  "name": "Headset Perro",
+  "name": "Mic CPerro",
   "price": 156.88683089569787,
   "image": "./img/headphone.png",
   "category": {
     "_id": "C1",
-    "name": "Headphones",
+    "name": "Micro Casque",
     "products": []
   },
   "_class": "com.technopc.Entities.Product"
@@ -15,12 +15,12 @@
   "_id": {
     "$oid": "61db0d9da1ed0d0c0ff70c73"
   },
-  "name": "Solo Headset",
+  "name": "Solo Mic",
   "price": 817.6255177954821,
   "image": "./img/headphone1.png",
   "category": {
     "_id": "C1",
-    "name": "Headphones",
+    "name": "Micro Casque",
     "products": [
       {
         "$oid": "61db0d9da1ed0d0c0ff70c72"
@@ -37,7 +37,7 @@
   "image": "./img/laptop.png",
   "category": {
     "_id": "C2",
-    "name": "Laptops",
+    "name": "Ordinateurs",
     "products": [
       {
         "$oid": "61db0d9da1ed0d0c0ff70c72"
@@ -57,7 +57,7 @@
   "image": "./img/laptop1.png",
   "category": {
     "_id": "C2",
-    "name": "Laptops",
+    "name": "Ordinateurs",
     "products": [
       {
         "$oid": "61db0d9da1ed0d0c0ff70c72"
@@ -75,12 +75,12 @@
   "_id": {
     "$oid": "61db0d9da1ed0d0c0ff70c76"
   },
-  "name": "Laptop XS3000 WiFi",
+  "name": "Laptop Acer Aspire",
   "price": 752.5822141089947,
   "image": "./img/laptop2.png",
   "category": {
     "_id": "C2",
-    "name": "Laptops",
+    "name": "Ordinateurs",
     "products": []
   },
   "_class": "com.technopc.Entities.Product"
@@ -88,12 +88,12 @@
   "_id": {
     "$oid": "61db0d9da1ed0d0c0ff70c77"
   },
-  "name": "Ultra Whitte Wireless",
+  "name": "Mic Wireless",
   "price": 479.28881497652833,
   "image": "./img/headphone3.png",
   "category": {
     "_id": "C1",
-    "name": "Headphones",
+    "name": "Micro Casque",
     "products": [
       {
         "$oid": "61db0d9da1ed0d0c0ff70c76"

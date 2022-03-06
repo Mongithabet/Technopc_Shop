@@ -115,3 +115,22 @@ label.card-shop{
     cursor: pointer;
 
 }
+@media screen and (max-width: 849px) {
+   .card{
+       height: auto;
+       margin-top: 20px;
+       width: 300px;
+   } 
+   p.name.card-text{
+       position: relative;
+   }
+  
+}
+@media screen and (max-width: 594px) {
+    .card{
+        height: auto;
+        margin-top: 20px;
+        width: 200px;
+       margin-left: 55px;
+    } 
+}

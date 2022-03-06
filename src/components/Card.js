@@ -13,7 +13,7 @@ export default function Card1() {
     const fetchData = async () => {
 
       try {
-        const response = await fetch('https://api.npoint.io/701042c2b328ece866d2')
+        const response = await fetch('https://api.npoint.io/6cf326346fd4c73a6c27')
       
         const data = await response.json();
 

@@ -1,0 +1,31 @@
+[{
+  "_id": "C1",
+  "name": "Micro Casque",
+  "products": [
+    {
+      "$oid": "61db0d9da1ed0d0c0ff70c72"
+    },
+    {
+      "$oid": "61db0d9da1ed0d0c0ff70c73"
+    },
+    {
+      "$oid": "61db0d9da1ed0d0c0ff70c77"
+    }
+  ],
+  "_class": "com.technopc.Entities.Category"
+},{
+  "_id": "C2",
+  "name": "Ordinateurs",
+  "products": [
+    {
+      "$oid": "61db0d9da1ed0d0c0ff70c74"
+    },
+    {
+      "$oid": "61db0d9da1ed0d0c0ff70c75"
+    },
+    {
+      "$oid": "61db0d9da1ed0d0c0ff70c76"
+    }
+  ],
+  "_class": "com.technopc.Entities.Category"
+}]

@@ -1,0 +1,99 @@
+
+.mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+} 
+element.style {
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+}
+.left-sidebar-wrapper .all-products .col .product-item .mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 2px 2px 6px 0 rgba(0,0,0,.1),0 1px 1px 0 transparent,0 1px 3px 0 rgba(0,0,0,.12)!important;
+    padding: 0;
+}
+.mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 2px 2px 6px 0 rgba(0,0,0,.1),0 1px 1px 0 transparent,0 1px 3px 0 rgba(0,0,0,.12)!important;
+}
+.mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+.mat-card {
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    position: relative;
+    padding: 16px;
+    border-radius: 4px;
+}
+.mat-card {
+    background: #fff;
+    color: rgba(0,0,0,.87);
+}
+.mat-focus-indicator, .mat-mdc-focus-indicator {
+    position: relative;
+}
+
+.mat-button-toggle, .mat-card {
+    font-family: Roboto,Helvetica Neue,sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.mat-drawer-container {
+    background-color: #fafafa;
+    color: rgba(0,0,0,.87);
+}
+.left-sidebar-wrapper .all-products .col .product-item .mat-card:not([class*=mat-elevation-z]) .product-img {
+    background: #f6f6f6;
+}
+
+
+.mat-card>:first-child, .mat-card-content>:first-child {
+    margin-top: 0;
+}
+.left-sidebar-wrapper .all-products .col .product-item .mat-card:not([class*=mat-elevation-z]) .product-info-wrapper .category {
+    margin-bottom: 4px;
+    display: block;
+    font-weight: 300;
+}
+
+.left-sidebar-wrapper .all-products .col .product-item .mat-card:not([class*=mat-elevation-z]) .product-info-wrapper span {
+    color: #848484;
+    font-size: 14px;
+}
+span {
+    font-size: 14px;
+}
+.mat-drawer-container {
+    background-color: #fafafa;
+    color: rgba(0,0,0,.87);
+}
+.mat-drawer-container {
+    color: #333;
+}
+.b{
+    --theme-deafult: #ef6c00;
+    color: #333;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 10px!important;
+    background-repeat: no-repeat;
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    width: 24px;
+    transform: translateZ(0);
+    transition-timing-function: ease-out;
+}
