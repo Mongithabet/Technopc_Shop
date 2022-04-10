@@ -48,7 +48,7 @@ p.name.card-text{
 label.card-shop{
   
     word-wrap: break-word;
-    --theme-deafult: #C70A0A;
+    --theme-deafult: #ef6c00;
     font-size: 1rem;
     font-family: Roboto,Helvetica Neue,sans-serif;
     box-sizing: border-box;
@@ -68,7 +68,7 @@ label.card-shop{
 .svg-shop{
    
     word-wrap: break-word;
-    --theme-deafult: #C70A0A;
+    --theme-deafult: #ef6c00;
     font-size: 1rem;
     font-family: Roboto,Helvetica Neue,sans-serif;
     color: white;
@@ -85,7 +85,7 @@ label.card-shop{
 
 }
 .card-text{
-    --theme-deafult: #C70A0A;
+    --theme-deafult: #ef6c00;
     font-family: Roboto,Helvetica Neue,sans-serif;
     color: rgba(0,0,0,.87);
     padding: 0;
@@ -111,7 +111,7 @@ label.card-shop{
     
 }
 .favorite-icon:hover{
-    fill: #C70A0A;
+    fill: #ef6c00;
     cursor: pointer;
 
 }

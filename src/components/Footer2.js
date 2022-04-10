@@ -31,35 +31,35 @@ export default function Footer2() {
                             <li>
                                 <div className="icon-service"><img src={icon1} alt="Service Icon" width="60" height="60"/></div>
                                 <div className="info-service">
-                                    <div className="title-service"><span style={{fontSize:"10pt"}}><Link to="/dd">satisfait OU REMBOURSÉ</Link> </span></div>
+                                    <div className="title-service"><span style={{fontSize:"10pt"}}><Link to="/dd"></Link> </span></div>
                                     <p>&nbsp;</p>
                                 </div>
                             </li>
                             <li>
                                 <div className="icon-service"><img src={icon2} alt="Service Icon" width="60" height="60"/></div>
                                 <div className="info-service">
-                                    <div className="title-service"><span style={{fontSize:"10pt"}}>PAIEMENT À LA LIVRAISON</span></div>
+                                    <div className="title-service"><span style={{fontSize:"10pt"}}></span></div>
                                     <p>&nbsp;</p>
                                 </div>
                             </li>
                             <li>
                                 <div className="icon-service"><img src={icon3} alt="Service Icon" width="60" height="60"/></div>
                                 <div className="info-service">
-                                    <div className="title-service"><span style={{fontSize:"10pt"}}><Link to="/hh">GRATUITE EN 48H À PARTIR DE 300DT</Link> </span></div>
+                                    <div className="title-service"><span style={{fontSize:"10pt"}}><Link to="/hh"></Link> </span></div>
                                     <p>&nbsp;</p>
                                 </div>
                             </li>
                             <li>
                                 <div className="icon-service"><img src={icon4} alt="Service Icon" width="60" height="60"/></div>
                                 <div className="info-service">
-                                    <div className="title-service"><span style={{fontSize:"10pt"}}> <Link to="pp">PAIEMENT EN LIGNE 100% SÉCURISÉ</Link></span></div>
+                                    <div className="title-service"><span style={{fontSize:"10pt"}}> <Link to="pp"></Link></span></div>
                                     <p>&nbsp;</p>
                                 </div>
                             </li>
                             <li>
                                 <div className="icon-service"><Link to="tel:+216 36 010 010"><img src={icon5} alt="Service Icon" width="60" height="60"/></Link></div>
                                 <div className="info-service">
-                                    <div className="title-service"><span style={{fontSize:"10pt"}}>CONTACTEZ-NOUS AU<Link style={{color: "#c70a0a", textDecoration: "underline"}}  to="tel:+216 24 360 762"> 24 360 762</Link></span></div>
+                                    <div className="title-service"><span style={{fontSize:"10pt"}}><Link style={{color: "#c70a0a", textDecoration: "underline"}}  to="tel:+216 24 360 762"> </Link></span></div>
                                 </div>
                             </li>
                         </ul>
@@ -71,38 +71,38 @@ export default function Footer2() {
                     <div className="row">
                     <Container>
         <Row md={4}>
-          <Col classNameName="h1-txt" >
-            <h1 classNameName="h1"> GS COMPUTER</h1>
+          <Col className="h1-txt" >
+            <h1 className="h1"> GS COMPUTER</h1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada fringilla sem, à dictum lectus ultricies quis. Etiam eu bibendum orci. Aliquam erat volutpat. PLUS SUR NOUS    MORE ABOUT US
           </Col>
-          <Col xs={4} classNameName="h1-txt">
-            <h5 classNameName="h5"> Prestations de service</h5>
+          <Col xs={4} className="h1-txt">
+            <h5 className="h5"> Prestations de service</h5>
             Developpement Web
             Mobile
             Vente PC
             Vente Mobile
             Accessoires
             Applications de Gestion</Col>
-          <Col md={2} classNameName="h1-txt">
-            <h5 classNameName="h5"> Abonnez vous à notre newsletter</h5>
+          <Col md={2} className="h1-txt">
+            <h5 className="h5"> Abonnez vous à notre newsletter</h5>
             Recevez nos dernières offres et mises à jour.
             <Form.Group as={Col} controlId="formGridEmail">
               <Form.Label>Email</Form.Label>
               <Form.Control type="email" placeholder="Enter email" />
             </Form.Group>
-            <Button classNameName="btn" type="submit">
+            <Button className="btn" type="submit">
               Submit
             </Button>
           </Col>
-          <Col classNameName="h1-txt">
-            <h5 classNameName="h5"> Nous contacter</h5>
+          <Col className="h1-txt">
+            <h5 className="h5"> Nous contacter</h5>
              <ImLocation/> Gabes Gabes center num 116 Tunisie <br/>
             <BsTelephoneFill/> (+216)24360762 <br/>
             <MdEmail/> Stechnopc@yahoo.fr <br/><br/>
-            <TiSocialFacebook classNameName="social" size="2"/>
-            <TiSocialLinkedin classNameName="social" size="2"/>
-            <TiSocialTwitter classNameName="social" size="2"/>
-            <AiOutlineGooglePlus classNameName="social" size="2"/>
+            <TiSocialFacebook className="social" size="2"/>
+            <TiSocialLinkedin className="social" size="2"/>
+            <TiSocialTwitter className="social" size="2"/>
+            <AiOutlineGooglePlus className="social" size="2"/>
 
 
           </Col>

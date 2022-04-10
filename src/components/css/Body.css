@@ -81,7 +81,7 @@ margin-top: 50px;
     padding-bottom: 6px;
     font-weight: 200;
     border-width: 3px;
-    border-image: linear-gradient(to right,#C70A0A,#C70A0A);
+    border-image: linear-gradient(to right,#ef6c00,#ef6c00);
     border-image-slice: 1;
 }
 .form__field:focus ~ .form__label {
@@ -90,7 +90,7 @@ margin-top: 50px;
     display: block;
     transition: 0.2s;
     font-size: 1rem;
-    color: #C70A0A;
+    color: #ef6c00;
 font-size: small;
 }
 .form__field:required, .form__field:invalid {

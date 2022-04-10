@@ -13,7 +13,7 @@ button.title{
  margin-top: 115px !important;
  padding-left: -10px !important;
  height: 50px;
- background: #C70A0A;
+ background: #ef6c00;
  border-radius: 3pt;
  border: none;
  float: left !important;
@@ -40,7 +40,7 @@ button.title{
   
   min-width: 30px;
   font-size: 85.714%;
-  background-color: #c70a0a;
+  background-color: #ef6c00;
   color: #fff;
 }
 .span2{
@@ -65,7 +65,7 @@ button.title{
   
   min-width: 30px;
   font-size: 85.714%;
-  background-color: #c70a0a;
+  background-color: #ef6c00;
   color: #fff;
 }
 
@@ -186,7 +186,7 @@ button.title{
       font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
       color: #fff;
       text-transform: uppercase;
-      background: #C72026 ;
+      background: #ef6c00 ;
       -moz-border-radius: 0 3px 3px 0;
       -webkit-border-radius: 0 3px 3px 0;
       border-radius: 0 3px 3px 0;      
@@ -204,7 +204,7 @@ button.title{
   position: absolute;
   border-width: 8px 8px 8px 0;
   border-style: solid solid solid none;
-  border-color: transparent #C72026 transparent;
+  border-color: transparent #ef6c00 transparent;
   top: 12px;
   left: -6px;
 }
